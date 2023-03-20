@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+     <link rel="shortcut icon" href="./logo/Spotify_Icon_RGB_Black.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- left section started -->
+    <section class="leftSection">
+      <article class="leftArticle">
+        <aside class="leftAside">
+          <div class="leftAsideItems">
+            <span id="logo"
+              ><img src="./logo/Spotify_Logo_RGB_White.png" alt="" id="logoImg"
+            /></span>
+
+            <div class="firstLeftLogo">
+                <div>
+                
+                      <span
+                        ><i class="fa-solid fa-house-chimney" id="Logo"></i></span
+                      ><span id="text">Home</span>
+            
+            
+              <div>
+                <span
+                    ><i
+                      class="fa-solid fa-magnifying-glass"
+                      id="Logo"
+                    ></i></span
+                  ><span id="text">Search</span>
+                     </div>
+              <div>
+              
+                  <span><i class="fa-solid fa-book" id="Logo"></i></span><span id="text">Library</span>
+                
+              </div>
+           
+            </div>
+
+            <div class="secondLeftLogo">
+
+                  <div>
+                    <span><i class="fa-solid fa-square-plus" id="Logo"></i></span>
+                    <span id="text">Create play list</span>
+                  </div>
+                  <div id="Heart">
+                    <span id="heart"><i class="fa-solid fa-heart" id="Logo"></i></span>
+                    <span id="text">Liked Song</span>
+                  </div>
+                  <span id="hr"></span>
+            </div>
+          </div>
+        </aside>
+      </article>
+    </section>
+   
+    <!-- left section end -->
+
+    <!-- navbar section started -->
+    <section class="navSection">
+      <article class="navArticle">
+        <nav class="navBar" id="navBar">
+          <div class="navItems">
+            <span id="logoGreen">
+                <img src="./logo/Spotify_Logo_RGB_Green.png" alt="">
+            </span>
+            <span id="nv"><svg role="img" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 kcBZLg IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16" data-encore-id="icon"><path d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"></path></svg></span>
+            <span id="nv">
+                <svg role="img" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 kcBZLg IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16" data-encore-id="icon"><path d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"></path></svg>
+            </span>
+          </div>
+        </nav>
+      </article>
+    </section>
+
+    <!-- navbar section end -->
+
+    <!-- right section started -->
+    <section class="rightSection " id="rightSection">
+      <article class="rightArticle">
+        <aside class="rightAside" id="rightAside"></aside>
+      </article>
+    </section>
+    <!-- right section end -->
+
+    <!-- player footer  section started -->
+    <section class="playerSection" >
+      <article class="playerArticle">
+        <footer class="player" id="colorplayer">
+
+
+            <div class="controlPlayer" >
+
+                 <div id="songDis">
+                     <img src="./img/png-transparent-music-musical-note-computer-icons-musical-note-text-logo-musician.png" alt="" id="songImg">
+                     <span><i class="fa-regular fa-heart" id="bottom"></i></span> 
+                     <h6 id="nameImg" ></h6>
+                 </div>
+             <div id="controller">
+                <div class="playPause" >
+                    <span class="pr" id="suffle"><i class="fa-solid fa-shuffle"></i></span>
+                    <span class="pr"  id="prevousSong">  <i class="fa-solid fa-backward-step"></i></span>
+                    <span class="pp" id="play"><i class="fa-solid fa-circle-play"></i></span>
+                    <span class="pr" id="nextSong"><i class="fa-solid fa-forward-step"></i></span>
+                    <span class="pr"><i class="fa-solid fa-repeat"></i></span></div>
+                <div class="Bar">
+                    <div class="pBar"></div>
+                </div>
+            </div>
+             <div id="rigthController">
+               <div> <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 uPxdw"><path d="M13.426 2.574a2.831 2.831 0 0 0-4.797 1.55l3.247 3.247a2.831 2.831 0 0 0 1.55-4.797zM10.5 8.118l-2.619-2.62A63303.13 63303.13 0 0 0 4.74 9.075L2.065 12.12a1.287 1.287 0 0 0 1.816 1.816l3.06-2.688 3.56-3.129zM7.12 4.094a4.331 4.331 0 1 1 4.786 4.786l-3.974 3.493-3.06 2.689a2.787 2.787 0 0 1-3.933-3.933l2.676-3.045 3.505-3.99z"></path></svg></div>
+             <div>
+                <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 uPxdw"><path d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 0 1 3.5 1h9a2.5 2.5 0 0 1 0 5h-9A2.5 2.5 0 0 1 1 3.5zm2.5-1a1 1 0 0 0 0 2h9a1 1 0 1 0 0-2h-9z"></path></svg>
+             </div>
+             <div>
+          <svg role="presentation" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 uPxdw" viewBox="0 0 16 16" data-encore-id="icon"><path d="M2 3.75C2 2.784 2.784 2 3.75 2h8.5c.966 0 1.75.784 1.75 1.75v6.5A1.75 1.75 0 0 1 12.25 12h-8.5A1.75 1.75 0 0 1 2 10.25v-6.5zm1.75-.25a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-6.5a.25.25 0 0 0-.25-.25h-8.5zM.25 15.25A.75.75 0 0 1 1 14.5h14a.75.75 0 0 1 0 1.5H1a.75.75 0 0 1-.75-.75z"></path></svg>
+   </div>
+              <div id="jaja">
+                <svg role="presentation" height="16" width="16" aria-hidden="true" aria-label="Volume high" id="volume-icon" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 uPxdw"><path d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.642 3.642 0 0 1-1.33-4.967 3.639 3.639 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.139 2.139 0 0 0 0 3.7l5.8 3.35V2.8l-5.8 3.35zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88z"></path><path d="M11.5 13.614a5.752 5.752 0 0 0 0-11.228v1.55a4.252 4.252 0 0 1 0 8.127v1.55z"></path></svg>
+                
+              </div>
+             </div>
+            </div>
+        </footer>
+      </article>
+      <audio src="" id="audio" controls autoplay></audio>
+    </section>
+
+
+    
+
+
+    
+    <!-- player footer  section end -->
+   
+    <script src="./js/app.js"></script>
+  </body>
+</html>
